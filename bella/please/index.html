@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="colorlib.com">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Here We Are</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <style>
+        #background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+    </style>
+<video id="background-video" autoplay loop muted>
+<source src="bella.mp4" type="video/mp4">
+</video>
+    <div class="main">
+
+        <div class="container">
+            <form method="POST" id="signup-form" class="signup-form" action="#">
+                <div>
+                    <h3></h3>
+                    <fieldset>
+                        <input type="text" name="first_name" id="first_name" />
+                        <label for="first_name" class="form-label">01 . Favorite food ?</label>
+                    </fieldset>
+
+                    <h3></h3>
+                    <fieldset>
+                        <input type="text" name="last_name" id="last_name" />
+                        <label for="last_name" class="form-label">02 . Favorite thing to do ?</label>
+                    </fieldset>
+
+                    <h3></h3>
+                    <fieldset>
+                        <input type="text" name="third_name" id="third_name" />
+                        <label for="third_name" class="form-label">03 . You love me, right ?</label>
+                    </fieldset>
+
+                    <h3></h3>
+                    <fieldset>
+                        <input type="text" name="fourth_name" id="fourth_name" />
+                        <label for="fourth_name" class="form-label">04 . So, Dip Ball with me ?</label>
+                    </fieldset>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="vendor/jquery-validation/dist/additional-methods.min.js"></script>
+    <script src="vendor/jquery-steps/jquery.steps.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
